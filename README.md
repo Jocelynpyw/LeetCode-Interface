@@ -1,3 +1,10 @@
+ceci est mon README
+Pour lancer le projet se placer sur le repertoire Frontend
+puis faire un npm i
+et en fin faire un npm run start
+
+NB : vous devez avoir au prealable Nodes js installé dans votre machine
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
