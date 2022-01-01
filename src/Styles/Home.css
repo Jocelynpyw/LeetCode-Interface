@@ -2,6 +2,7 @@ body {
   /* background-color: black; */
   transition: all 0.3s;
   background: #f7f9fc;
+  scroll-behavior: smooth;
 }
 /*                 Debut  section     */
 .barner {

@@ -21,17 +21,17 @@ function Home() {
                 </a>
               </li>
               <li>
-                <a href="#" className="nav-link-item">
+                <a href="#explore" className="nav-link-item">
                   Explore
                 </a>
               </li>
               <li>
-                <a href="#" className="nav-link-item">
+                <a href="#product" className="nav-link-item">
                   Product
                 </a>
               </li>
               <li>
-                <a href="#" className="nav-link-item">
+                <a href="#developer" className="nav-link-item">
                   Developer
                 </a>
               </li>
@@ -61,7 +61,7 @@ function Home() {
         </div>
       </section>
       {/*                    start-exporing                    */}
-      <section>
+      <section id="explore">
         <div className="container-start-exporing">
           <div className="col-md-6 col-sm-12 col-xs-12 start-exporing-left">
             <div className="title">
@@ -83,7 +83,7 @@ function Home() {
         </div>
       </section>
       {/*                 Section avec font noir tranparent */}
-      <section className="dev-box">
+      <section className="dev-box" id="product">
         <div className="container box-dev-container">
           <div className="col-md-6 col-sm-12 col-xs-12 box-left">
             <div className="titre-trois-hexagone triple">
@@ -138,7 +138,7 @@ function Home() {
 
         {/*  Section developpeur */}
 
-        <section className="developpeur">
+        <section className="developpeur" id="developer">
           <div className="container developpeur-box">
             <div className="losange losange-style6">
               <div className="losange-box-icon">
