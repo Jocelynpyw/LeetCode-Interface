@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../Styles/Home.css";
 import Maquette from "./Maquette";
 
@@ -36,9 +37,11 @@ function Home() {
                 </a>
               </li>
               <li>
-                <a href="#" className="nav-link-item">
-                  Sign in
-                </a>
+                <Link to="/login" style={{ textDecoration: "none" }}>
+                  <a href="#" className="nav-link-item">
+                    Sign in
+                  </a>
+                </Link>
               </li>
             </ul>
           </div>
