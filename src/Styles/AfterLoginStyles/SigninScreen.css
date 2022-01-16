@@ -47,9 +47,10 @@ body {
 }
 .texte {
   text-align: center;
-  width: 90%;
+  /* width: 100%; */
   margin-top: 1.7rem;
   font-size: 0.9rem;
+  margin-bottom: 1rem;
 }
 #btn-signin {
   background: linear-gradient(215deg, #546e7a, #37474f);
