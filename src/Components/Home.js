@@ -331,10 +331,10 @@ function Home() {
                   <a href="#">Students</a> &nbsp;|&nbsp;
                 </p>
                 <p>
-                  <a href="#">Terms</a> &nbsp;|&nbsp;
+                  <Link to="/term">Terms</Link> &nbsp;|&nbsp;
                 </p>
                 <p>
-                  <a href="#">Privacy Policy United States</a>
+                  <Link to="/privacy">Privacy Policy United States</Link>
                 </p>
               </div>
             </div>

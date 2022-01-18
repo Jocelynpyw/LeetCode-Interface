@@ -27,7 +27,7 @@ function Footer() {
           <Link to="/">Terms |</Link>
         </p>
         <p>
-          <Link to="/">Privacy Policy </Link>
+          <Link to="/privacy">Privacy Policy </Link>
         </p>
       </div>
       <div className="footer-right">Cameroun</div>

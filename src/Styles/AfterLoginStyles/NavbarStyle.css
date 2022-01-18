@@ -2,15 +2,15 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background: #f7f9fc;
 }
 .navbar-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   background-color: #fff;
+
   height: 50px;
   padding: 10px 0px 0px 0px;
 }

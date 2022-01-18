@@ -5,7 +5,7 @@ import "../Styles/AfterLoginStyles/SigninScreen.css";
 
 function SigninScreen() {
   const [signIn, setSignIn] = useState(true);
-  const [signUp, setSignUp] = useState(true);
+  const [signUp, setSignUp] = useState(false);
   const handleSignin = () => {
     setSignUp(true);
     setSignIn(false);
